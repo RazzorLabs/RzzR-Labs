@@ -9,8 +9,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), <img src="btv.jpg" alt="BTV">;
     <title>RaZZoR-Labs, Cardano Stake Pool</title>
+    
+ <div class="container">
+  <img src="btv.jpg" alt="BTV" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
 
     <style>
         
@@ -45,6 +53,13 @@
         h3 {
   color: rgb(255, 255, 255);
   font-size: 1em;
+}
+        
+        /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
         
     </style>
